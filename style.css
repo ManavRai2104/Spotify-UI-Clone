@@ -292,3 +292,118 @@ a {
     border-radius: 50%;
     margin-top: -6px;
 }
+
+/* Medium screens (Tablets) */
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 260px;
+    }
+
+    .card {
+        width: 130px;
+        margin-left: 1rem;
+        padding: 0.75rem;
+    }
+
+    .music-player {
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem 1rem;
+        gap: 0.5rem;
+    }
+
+    .album,
+    .player,
+    .controls {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .album {
+        margin-bottom: 0.5rem;
+    }
+
+    .player-controls {
+        margin: 0.5rem 0;
+    }
+
+    .progress-bar {
+        width: 90%;
+    }
+}
+
+/* Small screens (Phones) */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .main-content {
+        padding: 1rem;
+    }
+
+    .cards-container {
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 250px;
+        margin: 0.5rem auto;
+    }
+
+    .nav-sticky-options {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-sticky-options button {
+        margin: 0.5rem 0;
+    }
+
+    .hide {
+        display: none !important;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .nav-option a {
+        font-size: 0.9rem;
+    }
+
+    .nav-option i {
+        font-size: 1rem;
+    }
+
+    .badge,
+    .dark-badge {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.75rem;
+    }
+
+    .plyer-control-icon {
+        margin-right: 1rem;
+    }
+
+    .album img {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .box {
+        padding: 0.5rem;
+    }
+
+    .sticky-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
