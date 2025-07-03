@@ -4,7 +4,8 @@ A responsive front-end clone of Spotify's web player interface, built using **HT
 
 ## 📸 Screenshot
 
-Pics/Screenshot 2025-07-04 at 12.23.32 am.png
+![Uploading Screenshot 2025-07-04 at 12.23.32 am.png…]()
+
 
 *(Replace the above path with the actual image location)*
 
