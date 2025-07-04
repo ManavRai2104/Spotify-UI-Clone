@@ -408,7 +408,8 @@ a {
         flex-direction: column;
         align-items: flex-start;
     }
-    @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
   .main {
     flex-direction: column;
     padding: 0.25rem;
@@ -481,4 +482,4 @@ a {
     display: none !important;
   }
 }
-}
+
