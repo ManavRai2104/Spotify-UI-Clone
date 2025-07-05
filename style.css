@@ -300,34 +300,18 @@ img {
     .main {
         flex-direction: column;
         height: auto;
-        padding: 0.5rem;
     }
 
     .sidebar {
         width: 100%;
         margin-right: 0;
         margin-bottom: 1rem;
-        border-radius: 0.5rem;
+        border-radius: 1rem;
     }
 
     .main-content {
         width: 100%;
         padding: 0.5rem;
-    }
-
-    .music-player {
-        flex-direction: column;
-        height: auto;
-        padding: 0.5rem;
-        gap: 0.5rem;
-        position: static;
-    }
-
-    .album, .player, .controls {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0.5rem;
     }
 
     .cards-container {
@@ -337,8 +321,31 @@ img {
 
     .card {
         width: 90%;
-        max-width: 300px;
+        max-width: 320px;
         margin: 0.75rem 0;
+    }
+
+    .music-player {
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 1rem 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .album, .player, .controls {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .sticky-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+        gap: 0.5rem;
     }
 
     .nav-sticky-options {
@@ -348,12 +355,6 @@ img {
 
     .nav-sticky-options button {
         margin-bottom: 0.5rem;
-    }
-
-    .sticky-nav {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.5rem;
     }
 
     .progress-bar {
@@ -373,3 +374,5 @@ img {
         display: none !important;
     }
 }
+
+
