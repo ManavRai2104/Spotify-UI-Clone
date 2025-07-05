@@ -22,6 +22,7 @@ body {
     width: 340px;
     border-radius: 1rem;
     margin-right: 0.5rem;
+    side-width: 100%;
 }
 
 .main-content {
@@ -375,4 +376,27 @@ img {
     }
 }
 
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Show hamburger and hide sidebar on small screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .sidebar.active {
+    display: block;
+  }
+}
 
